@@ -1,3 +1,7 @@
 {
-  "extends": ["prettier-standard"]
+  "rules": {
+    "jsx-quotes": ["error", "prefer-single"],
+    "space-before-function-paren": ["error", "always"]
+  },
+  "extends": ["standard"]
 }
