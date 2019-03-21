@@ -1,7 +1,9 @@
 {
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
   "rules": {
     "jsx-quotes": ["error", "prefer-single"],
     "space-before-function-paren": ["error", "always"]
   },
-  "extends": ["standard"]
+  "extends": ["standard", "react-app"]
 }

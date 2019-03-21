@@ -1,26 +1,23 @@
 {
-  "name": "ts-prettier",
+  "name": "ts-p",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.11",
-    "@types/node": "11.11.3",
+    "@types/node": "11.11.4",
     "@types/react": "16.8.8",
-    "@types/react-dom": "16.8.2",
+    "@types/react-dom": "16.8.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8",
-    "typescript": "3.3.3333"
+    "typescript": "3.3.4000"
   },
   "scripts": {
     "start": "react-scripts start",
+    "lint": "eslint **/*.tsx **/*.ts",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "standard **/*.tsx **/*.ts | snazzy"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "eject": "react-scripts eject"
   },
   "browserslist": [
     ">0.2%",
@@ -29,29 +26,13 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "eslint-plugin-typescript": "^0.14.0",
-    "snazzy": "^8.0.0",
-    "standard": "^12.0.1",
-    "typescript-eslint-parser": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "@typescript-eslint/parser": "^1.5.0",
     "eslint": "^5.15.3",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-config-prettier-standard": "^2.0.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "prettier": "^1.16.4"
-  },
-  "standard": {
-    "parser": "typescript-eslint-parser",
-    "plugins": [
-      "typescript"
-    ],
-    "envs": [
-      "browser",
-      "jest"
-    ]
+    "eslint-plugin-standard": "^4.0.0"
   }
 }
